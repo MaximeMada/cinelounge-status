@@ -1,31 +1,43 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Configuration Upptime pour cinelounge.org
+owner: MaximeMada
+repo: cinelounge-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Cinelounge
+    url: https://cinelounge.org
+    # Au-delà de ce temps de réponse (ms), le site est marqué « dégradé »
+    maxResponseTime: 3000
+  # Ajoutez ici d'autres pages critiques si besoin, par exemple :
+  # - name: Cinelounge – page de lecture
+  #   url: https://cinelounge.org/chemin/important
+  #   maxResponseTime: 5000
+
+# Les issues d'incident vous sont assignées (notification e-mail)
+assignees:
+  - MaximeMada
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # Page servie sur https://maximemada.github.io/cinelounge-status
+  baseUrl: /cinelounge-status
+  name: Cinelounge – Statut
+  introTitle: "État du site **cinelounge.org**"
+  introMessage: Disponibilité et temps de réponse mesurés toutes les 5 minutes depuis l'extérieur du serveur.
   navbar:
-    - title: Status
+    - title: Statut
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: cinelounge.org
+      href: https://cinelounge.org
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Incidents en cours
+  allSystemsOperational: Tous les services fonctionnent normalement
+  incidentReport: "Rapport de l'incident #$NUMBER →"
+  pastIncidents: Incidents passés
+  pastIncidentsResolved: "Résolu en $MINUTES minutes avec $POSTS messages"
+  liveStatus: État en direct
+  overallUptime: "Disponibilité globale : $UPTIME"
+  averageResponseTime: "Temps de réponse moyen : $TIME"
+  up: Opérationnel
+  down: Hors ligne
+  degraded: Dégradé
+  loading: Chargement

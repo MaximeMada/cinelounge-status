@@ -12,6 +12,13 @@ sites:
   #   url: https://cinelounge.org/chemin/important
   #   maxResponseTime: 5000
 
+# Disponibilité vérifiée toutes les 5 min (commit uniquement si l'état change) ;
+# temps de réponse enregistré toutes les 30 min (à :17 et :47, hors des heures
+# pleines où GitHub retarde les tâches planifiées).
+workflowSchedule:
+  uptime: "*/5 * * * *"
+  responseTime: "17,47 * * * *"
+
 # Les issues d'incident vous sont assignées (notification e-mail)
 assignees:
   - MaximeMada

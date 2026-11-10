@@ -4,17 +4,19 @@
     "url": "https://cinelounge.org",
     "icon": "https://icons.duckduckgo.com/ip3/cinelounge.org.ico",
     "slug": "cinelounge",
-    "status": "degraded",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1374,
-    "timeDay": 7042,
-    "timeWeek": 1525,
-    "timeMonth": 1374,
-    "timeYear": 1374,
-    "dailyMinutesDown": {}
+    "status": "up",
+    "uptime": "97.31%",
+    "uptimeDay": "76.02%",
+    "uptimeWeek": "96.57%",
+    "uptimeMonth": "97.31%",
+    "uptimeYear": "97.31%",
+    "time": 1347,
+    "timeDay": 5713,
+    "timeWeek": 1517,
+    "timeMonth": 1347,
+    "timeYear": 1347,
+    "dailyMinutesDown": {
+      "2026-11-10": 345
+    }
   }
 ]

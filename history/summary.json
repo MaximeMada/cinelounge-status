@@ -5,26 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/cinelounge.org.ico",
     "slug": "cinelounge",
     "status": "up",
-    "uptime": "59.02%",
-    "uptimeDay": "0.01%",
-    "uptimeWeek": "4.15%",
-    "uptimeMonth": "59.02%",
-    "uptimeYear": "59.02%",
+    "uptime": "98.59%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "98.59%",
+    "uptimeYear": "98.59%",
     "time": 1016,
     "timeDay": 683,
     "timeWeek": 560,
     "timeMonth": 1016,
     "timeYear": 1016,
     "dailyMinutesDown": {
-      "2026-11-10": 345,
-      "2026-11-18": 989,
-      "2026-11-17": 1440,
-      "2026-11-16": 1440,
-      "2026-11-15": 1440,
-      "2026-11-14": 1440,
-      "2026-11-13": 1440,
-      "2026-11-12": 1440,
-      "2026-11-11": 33
+      "2026-11-10": 345
     }
   }
 ]

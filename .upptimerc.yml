@@ -4,7 +4,7 @@ repo: cinelounge-status
 
 sites:
   - name: Cinelounge
-    url: https://cinelounge.org
+    url: https://cinelounge.org/upptime.php
     # Au-delà de ce temps de réponse (ms), le site est marqué « dégradé »
     maxResponseTime: 3000
   # Ajoutez ici d'autres pages critiques si besoin, par exemple :
